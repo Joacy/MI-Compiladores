@@ -16,7 +16,7 @@ public class AnalisadorLexico {
 	// Expressões Regulares
 	String identificador = "\\b[a-z|A-Z]\\w*\\b";
 	String palavraReservada = "\\b(class|final|if|else|for|scan|print|int|float|bool|true|false|string)\\b";
-	String numero = "-?[\\x09|\\x0A|\\x0D|\\x20]*?[0-9]+(\\x2E[0-9]+)?";
+	String numero = "-?(\\x09|\\x0A|\\x0D|\\x20)*?[0-9]+(\\x2E[0-9]+)?";
 	String digito = "\\b[0-9]\\b";
 	String letra = "\\b[a-z|A-Z]\\b";
 	String operadorAritmetico = "\\+|-|\\*|\\x2F|%";
@@ -24,7 +24,7 @@ public class AnalisadorLexico {
 	String operadorLogico = "\\x21|\\x26\\x26|\\x7C\\x7C";
 	String delimitador = "\\x3B|\\x2C|\\x28|\\x29|\\x5B|\\x5D|\\x7B|\\x7D|\\x3A";
 	String cadeiaCaracteres = "\\x22([a-zA-Z]|[0-9]|[\\x20-\\x21]|[\\x23-\\x7E]|\\x5C\\x22)+\\x22";
-	String espaco = "[\\x09|\\x0A|\\x0D|\\x20]+";
+	String espaco = "(\\x09|\\x0A|\\x0D|\\x20)+";
 	String comentarioLinha = "\\x2F\\x2F(.|\\x09|\\x0D|\\x20)*\\x0A";
 	String comentarioBloco = "\\x2F\\*(.|\\x09|\\x0A|\\x0D|\\x20)*\\*\\x2F";
 
@@ -42,6 +42,18 @@ public class AnalisadorLexico {
 	}
 
 	public void preencheExpressoes() {
+		expressoes[0] = palavraReservada;
+		expressoes[1] = identificador;
+		expressoes[2] = numero;
+		expressoes[3] = operadorAritmetico;
+		expressoes[4] = operadorRelacional;
+		expressoes[5] = operadorLogico;
+		expressoes[6] = delimitador;
+		expressoes[7] = cadeiaCaracteres;
+	}
+	
+	/*
+	public void preencheExpressoes() {
 		expressoes[0] = comentarioLinha;
 		expressoes[1] = comentarioBloco;
 		expressoes[2] = palavraReservada;
@@ -54,11 +66,51 @@ public class AnalisadorLexico {
 		expressoes[9] = cadeiaCaracteres;
 		expressoes[10] = espaco;
 	}
-
+	*/
+	
+	public void encontraToken() {
+		String token = "null";
+		for (int i = 0; i < 8; i++) {
+			if(i == 0) {
+				token = "Palavra Reservada";
+			}
+			else if(i == 1) {
+				token = "Identificador";
+			}
+			else if(i == 2) {
+				token = "Número";
+			}
+			else if(i == 3) {
+				token = "Operador Aritmético";
+			}
+			else if(i == 4) {
+				token = "Operador Relacional";
+			}
+			else if(i == 5) {
+				token = "Operador Lógico";
+			}
+			else if(i == 6) {
+				token = "Delimitador";
+			}
+			else if(i == 7) {
+				token = "Cadeia de Caracteres";
+			}
+	
+			Pattern p = Pattern.compile(expressoes[i]);
+			Matcher m = p.matcher(arquivoEntrada.toString());
+			
+			while (m.find()) {
+				// Obtendo o inicio do que foi encontrado
+				System.out.println(token + " " + m.start() + " " + m.end());
+			}
+		}
+	}
+	
+	/*
 	public void encontraToken() {
 		for (int i = 2; i < 11; i++) {
 			Pattern p = Pattern.compile(expressoes[i]);
-			Matcher m = p.matcher(entrada.toString());
+			Matcher m = p.matcher(arquivoEntrada.toString());
 
 			while (m.find()) {
 				// Obtendo o inicio do que foi encontrado
@@ -66,7 +118,8 @@ public class AnalisadorLexico {
 			}
 		}
 	}
-
+	 */
+	
 	public void verificaEntrada(String entrada) {
 		if (entrada.matches(identificador)) {
 			if (entrada.matches(palavraReservada)) {
