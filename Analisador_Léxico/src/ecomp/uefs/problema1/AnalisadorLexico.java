@@ -101,7 +101,7 @@ public class AnalisadorLexico {
 			
 			while (m.find()) {
 				// Obtendo o inicio do que foi encontrado
-				System.out.println(token + " " + m.start() + " " + m.end());
+				System.out.println(token + " " + m.group() + " " + m.start() + " " + m.end());
 			}
 		}
 	}
