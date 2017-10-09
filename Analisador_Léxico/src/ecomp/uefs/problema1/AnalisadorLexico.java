@@ -91,7 +91,7 @@ public class AnalisadorLexico {
 				token = "Palavra Reservada";
 			}	
 			else if (i == 4) {
-				token = "Identificador";
+				token = "Erro de Identificador";
 			}	
 			else if (i == 5) {
 				token = "Número";
@@ -118,7 +118,7 @@ public class AnalisadorLexico {
 				token = "Espaço";
 			}
 			else if(i == 14) {
-				token = "Erro de Identificador";
+				token = "Identificador";
 			}
 			else if(i == 15) {
 				token = "Erro de Número";
