@@ -1,0 +1,110 @@
+<Identificador, a">  1 
+<Identificador, b">  1 
+<Erro de Identificador, c>  1 
+<Espaço,  >  15 
+<Erro de Símbolo, .>  15 
+<Número,  123>  15 
+<Erro de Cadeia de Caracteres, "/ç* ">  17 
+<Erro de Identificador, kjdkab>  17 
+<Espaço,  >  17 
+<Operador Aritmético, *>  17 
+<Operador Aritmético, />  17 
+<Erro de Cadeia de Caracteres, ">  17 
+<Comentario de Bloco, /*kljjjçjj.^çj
+jjm/*lkjkhgfg*/
+
+" /* Arquivo p.ara testar compiladores */>  19 
+<Espaço,  >  22 
+<Erro de Cadeia de Caracteres, ">  22 
+<Palavra Reservada, class>  24 
+<Espaço,  >  24 
+<Erro de Identificador, test>  24 
+<Espaço,  >  24 
+<Delimitador, {>  24 
+<Espaço, 	>  26 
+<Palavra Reservada, int>  26 
+<Espaço,  >  26 
+<Erro de Identificador, a>  26 
+<Delimitador, ,>  26 
+<Espaço,  >  26 
+<Palavra Reservada, int>  26 
+<Espaço,  >  26 
+<Erro de Identificador, b>  26 
+<Delimitador, ,>  26 
+<Espaço,  >  26 
+<Palavra Reservada, int>  26 
+<Espaço,  >  26 
+<Erro de Identificador, c>  26 
+<Delimitador, ;>  26 
+<Espaço, 	>  27 
+<Espaço, 	>  28 
+<Erro de Identificador, a>  28 
+<Espaço,  >  28 
+<Operador Relacional, =>  28 
+<Espaço,  >  28 
+<Número, -3>  28 
+<Delimitador, ;>  28 
+<Espaço, 	>  28 
+<Espaço, 	>  29 
+<Erro de Identificador, b>  29 
+<Espaço,  >  29 
+<Operador Relacional, =>  29 
+<Número,  2>  29 
+<Delimitador, ;>  29 
+<Espaço, 	>  29 
+<Espaço, 	>  30 
+<Erro de Identificador, c>  30 
+<Espaço,  >  30 
+<Operador Relacional, =>  30 
+<Número,  1>  30 
+<Delimitador, ;>  30 
+<Espaço, 	>  30 
+<Espaço, 	>  31 
+<Espaço, 	>  32 
+<Palavra Reservada, float>  32 
+<Espaço,  >  32 
+<Erro de Identificador, d>  32 
+<Delimitador, ;>  32 
+<Espaço, 	>  33 
+<Espaço, 	>  34 
+<Erro de Identificador, d>  34 
+<Espaço,  >  34 
+<Operador Relacional, =>  34 
+<Espaço,  >  34 
+<Erro de Identificador, b>  34 
+<Espaço,  >  34 
+<Operador Aritmético, +>  34 
+<Espaço,  >  34 
+<Erro de Identificador, c>  34 
+<Delimitador, ;>  34 
+<Espaço, 	>  35 
+<Erro de Identificador, d>  35 
+<Espaço,  >  35 
+<Operador Relacional, =>  35 
+<Espaço,  >  35 
+<Erro de Identificador, d>  35 
+<Espaço,  >  35 
+<Operador Aritmético, +>  35 
+<Número,  1.2>  35 
+<Delimitador, ;>  35 
+<Número, 
+	45>  35 
+<Erro de Símbolo, .>  35 
+<Espaço, 	>  36 
+<Palavra Reservada, string>  36 
+<Espaço,  >  36 
+<Erro de Identificador, teste>  36 
+<Espaço,  >  36 
+<Operador Relacional, =>  36 
+<Espaço,  >  36 
+<Cadeia de Caracteres, "Acertou!">  36 
+<Delimitador, ;>  36 
+<Espaço, 	>  37 
+<Espaço, 	>  38 
+<Palavra Reservada, print>  38 
+<Delimitador, (>  38 
+<Erro de Identificador, teste>  38 
+<Delimitador, )>  38 
+<Delimitador, ;>  38 
+<Espaço, 	>  39 
+<Delimitador, }>  40 
