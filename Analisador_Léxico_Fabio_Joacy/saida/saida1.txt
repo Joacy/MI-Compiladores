@@ -1,0 +1,75 @@
+||< Token, Lexema > | Linha: ||
+
+< Cadeia Caracter, "fdfsfdfsa\"sfsf" >  Linha:1 
+< Comentario de Bloco, /*  dssjakdjsdjnknsandkasn
+
+"/*knakndnckmfl*/ >  Linha:3 
+< Erro de Cadeia de Caracteres, " >  Linha:5 
+< Identificador, @@@@@@@@@@@@@aaaaaaa >  Linha:7 
+< Erro de Identificador, aaaaaaaa >  Linha:9 
+< Erro de SÃ­mbolo, @@@@@@@@ >  Linha:9 
+< Identificador, @@@a >  Linha:11 
+< Identificador, @@@a >  Linha:11 
+< Identificador, @@a >  Linha:11 
+< Cadeia Caracter, "a" >  Linha:13 
+< Erro de Identificador, b >  Linha:13 
+< Erro de Cadeia de Caracteres, " >  Linha:13 
+< Número, 123.123456789 >  Linha:15 
+< Erro de Numero, 2.a >  Linha:17 
+< Erro de Numero, .50 >  Linha:19 
+< Palavra Reservada, class >  Linha:22 
+< Erro de Identificador, test >  Linha:22 
+< Delimitador, { >  Linha:22 
+< Palavra Reservada, int >  Linha:24 
+< Erro de Identificador, a >  Linha:24 
+< Delimitador, , >  Linha:24 
+< Palavra Reservada, int >  Linha:24 
+< Erro de Identificador, b >  Linha:24 
+< Delimitador, , >  Linha:24 
+< Palavra Reservada, int >  Linha:24 
+< Erro de Identificador, c >  Linha:24 
+< Delimitador, ; >  Linha:24 
+< Erro de Identificador, a >  Linha:26 
+< Operador Relacional, = >  Linha:26 
+< Número, -3 >  Linha:26 
+< Delimitador, ; >  Linha:26 
+< Comentario de Linha, // teste 1
+ >  Linha:26 
+< Erro de Identificador, b >  Linha:27 
+< Operador Relacional, = >  Linha:27 
+< Número, 2 >  Linha:27 
+< Delimitador, ; >  Linha:27 
+< Comentario de Linha, // teste 2
+ >  Linha:27 
+< Erro de Identificador, c >  Linha:28 
+< Operador Relacional, = >  Linha:28 
+< Número, 1 >  Linha:28 
+< Delimitador, ; >  Linha:28 
+< Comentario de Linha, // teste 3
+ >  Linha:28 
+< Palavra Reservada, float >  Linha:30 
+< Erro de Identificador, d >  Linha:30 
+< Delimitador, ; >  Linha:30 
+< Erro de Identificador, d >  Linha:32 
+< Operador Relacional, = >  Linha:32 
+< Erro de Identificador, b >  Linha:32 
+< Operador Aritmético, + >  Linha:32 
+< Erro de Identificador, c >  Linha:32 
+< Delimitador, ; >  Linha:32 
+< Erro de Identificador, d >  Linha:33 
+< Operador Relacional, = >  Linha:33 
+< Erro de Identificador, d >  Linha:33 
+< Operador Aritmético, + >  Linha:33 
+< Número, 1.2 >  Linha:33 
+< Delimitador, ; >  Linha:33 
+< Palavra Reservada, string >  Linha:35 
+< Erro de Identificador, teste >  Linha:35 
+< Operador Relacional, = >  Linha:35 
+< Cadeia Caracter, "Acertou!" >  Linha:35 
+< Delimitador, ; >  Linha:35 
+< Palavra Reservada, print >  Linha:37 
+< Delimitador, ( >  Linha:37 
+< Erro de Identificador, teste >  Linha:37 
+< Delimitador, ) >  Linha:37 
+< Delimitador, ; >  Linha:37 
+< Delimitador, } >  Linha:39 

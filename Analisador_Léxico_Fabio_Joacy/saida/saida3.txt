@@ -1,0 +1,79 @@
+||< Token, Lexema > | Linha: ||
+
+< Comentario de Bloco, /*
+Arquivo p.ara testar compiladores  "
+
+
+
+
+*/ >  Linha:1 
+< Palavra Reservada, class >  Linha:9 
+< Erro de Identificador, test >  Linha:9 
+< Delimitador, { >  Linha:9 
+< Palavra Reservada, int >  Linha:11 
+< Erro de Identificador, a >  Linha:11 
+< Delimitador, , >  Linha:11 
+< Palavra Reservada, int >  Linha:11 
+< Erro de Identificador, b >  Linha:11 
+< Delimitador, , >  Linha:11 
+< Palavra Reservada, int >  Linha:11 
+< Erro de Identificador, c >  Linha:11 
+< Delimitador, ; >  Linha:11 
+< Erro de Identificador, a >  Linha:13 
+< Operador Relacional, = >  Linha:13 
+< Número, -3 >  Linha:13 
+< Erro de SÃ­mbolo, # >  Linha:13 
+< Delimitador, ; >  Linha:13 
+< Cadeia Caracter, "// teste 1" >  Linha:13 
+< Erro de Identificador, b >  Linha:14 
+< Operador Relacional, = >  Linha:14 
+< Número, 2 >  Linha:14 
+< Delimitador, ; >  Linha:14 
+< Comentario de Linha, // teste 2
+ >  Linha:14 
+< Erro de Identificador, c >  Linha:15 
+< Operador Relacional, = >  Linha:15 
+< Número, 1 >  Linha:15 
+< Delimitador, ; >  Linha:15 
+< Comentario de Linha, // teste 3
+ >  Linha:15 
+< Erro de Identificador, atyui12 >  Linha:17 
+< Erro de Cadeia de Caracteres, " = 56789_ >  Linha:17 
+< Palavra Reservada, float >  Linha:19 
+< Erro de Identificador, dlson >  Linha:19 
+< Delimitador, ; >  Linha:19 
+< Erro de Identificador, d >  Linha:21 
+< Operador Relacional, = >  Linha:21 
+< Erro de Identificador, b >  Linha:21 
+< Operador Aritmético, + >  Linha:21 
+< Erro de Identificador, c >  Linha:21 
+< Delimitador, ; >  Linha:21 
+< Erro de Identificador, d >  Linha:22 
+< Operador Relacional, = >  Linha:22 
+< Erro de Identificador, d >  Linha:22 
+< Operador Aritmético, + >  Linha:22 
+< Número, 1.2 >  Linha:22 
+< Delimitador, ; >  Linha:22 
+< Palavra Reservada, string >  Linha:24 
+< Erro de Identificador, teste >  Linha:24 
+< Operador Relacional, = >  Linha:24 
+< Cadeia Caracter, "Acertou!" >  Linha:24 
+< Delimitador, ; >  Linha:24 
+< Palavra Reservada, bool >  Linha:25 
+< Erro de Identificador, az >  Linha:25 
+< Erro de Identificador, inthj >  Linha:25 
+< Palavra Reservada, scan >  Linha:27 
+< Delimitador, ( >  Linha:27 
+< Palavra Reservada, class >  Linha:27 
+< Delimitador, ) >  Linha:27 
+< Palavra Reservada, false >  Linha:27 
+< Palavra Reservada, print >  Linha:28 
+< Delimitador, ( >  Linha:28 
+< Erro de Identificador, teste >  Linha:28 
+< Delimitador, ) >  Linha:28 
+< Delimitador, ; >  Linha:28 
+< Erro de Cadeia de Caracteres, "ssssssssssssss >  Linha:29 
+< Comentario de Bloco, /*asjjjjjjjjjjjjjjjjjjjjjjh
+
+	"ajjjjjjjjjjjjh*/ >  Linha:31 
+< Delimitador, } >  Linha:34 

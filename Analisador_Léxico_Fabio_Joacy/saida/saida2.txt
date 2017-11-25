@@ -1,0 +1,175 @@
+||< Token, Lexema > | Linha: ||
+
+< Erro de Identificador, assnsnns >  Linha:1 
+< Operador Lógico, || >  Linha:1 
+< Erro de Identificador, asdfxcgvhbn >  Linha:1 
+< Palavra Reservada, int >  Linha:2 
+< Erro de Identificador, N >  Linha:2 
+< Delimitador, ; >  Linha:2 
+< Palavra Reservada, string >  Linha:4 
+< Erro de Identificador, carne >  Linha:4 
+< Delimitador, ; >  Linha:4 
+< Palavra Reservada, int >  Linha:5 
+< Erro de Identificador, validade >  Linha:5 
+< Delimitador, ; >  Linha:5 
+< Palavra Reservada, int >  Linha:6 
+< Erro de Identificador, cont >  Linha:6 
+< Operador Relacional, = >  Linha:6 
+< Número, 0 >  Linha:6 
+< Delimitador, ; >  Linha:6 
+< Palavra Reservada, for >  Linha:9 
+< Delimitador, ( >  Linha:9 
+< Palavra Reservada, int >  Linha:9 
+< Erro de Identificador, i >  Linha:9 
+< Operador Relacional, = >  Linha:9 
+< Número, 0 >  Linha:9 
+< Delimitador, ; >  Linha:9 
+< Erro de Identificador, i >  Linha:9 
+< Operador Relacional, < >  Linha:9 
+< Número, 70 >  Linha:9 
+< Delimitador, ; >  Linha:9 
+< Erro de Identificador, i >  Linha:9 
+< Operador Aritmético, + >  Linha:9 
+< Operador Aritmético, + >  Linha:9 
+< Delimitador, ) >  Linha:9 
+< Delimitador, { >  Linha:9 
+< Erro de Identificador, carnes >  Linha:10 
+< Delimitador, [ >  Linha:10 
+< Erro de Identificador, i >  Linha:10 
+< Delimitador, ] >  Linha:10 
+< Operador Relacional, = >  Linha:10 
+< Cadeia Caracter, "carne" >  Linha:10 
+< Delimitador, ; >  Linha:10 
+< Delimitador, } >  Linha:11 
+< Erro de Identificador, while >  Linha:13 
+< Delimitador, ( >  Linha:13 
+< Palavra Reservada, scan >  Linha:13 
+< Delimitador, ( >  Linha:13 
+< Cadeia Caracter, "%d" >  Linha:13 
+< Delimitador, , >  Linha:13 
+< Identificador, &N >  Linha:13 
+< Delimitador, ) >  Linha:13 
+< Operador Relacional, != >  Linha:13 
+< Erro de Identificador, EOF >  Linha:13 
+< Delimitador, ) >  Linha:13 
+< Delimitador, { >  Linha:13 
+< Palavra Reservada, for >  Linha:14 
+< Delimitador, ( >  Linha:14 
+< Palavra Reservada, int >  Linha:14 
+< Erro de Identificador, j >  Linha:14 
+< Operador Relacional, = >  Linha:14 
+< Número, 0 >  Linha:14 
+< Delimitador, ; >  Linha:14 
+< Erro de Identificador, j >  Linha:14 
+< Operador Relacional, < >  Linha:14 
+< Erro de Identificador, N >  Linha:14 
+< Delimitador, ; >  Linha:14 
+< Erro de Identificador, j >  Linha:14 
+< Operador Aritmético, + >  Linha:14 
+< Operador Aritmético, + >  Linha:14 
+< Delimitador, ) >  Linha:14 
+< Delimitador, { >  Linha:14 
+< Erro de Identificador, cin >  Linha:15 
+< Operador Relacional, > >  Linha:15 
+< Operador Relacional, > >  Linha:15 
+< Erro de Identificador, carne >  Linha:15 
+< Operador Relacional, > >  Linha:15 
+< Operador Relacional, > >  Linha:15 
+< Erro de Identificador, validade >  Linha:15 
+< Delimitador, ; >  Linha:15 
+< Erro de Identificador, carnes >  Linha:16 
+< Delimitador, [ >  Linha:16 
+< Erro de Identificador, validade >  Linha:16 
+< Delimitador, ] >  Linha:16 
+< Operador Relacional, = >  Linha:16 
+< Erro de Identificador, carne >  Linha:16 
+< Delimitador, ; >  Linha:16 
+< Delimitador, } >  Linha:17 
+< Palavra Reservada, for >  Linha:19 
+< Delimitador, ( >  Linha:19 
+< Palavra Reservada, int >  Linha:19 
+< Erro de Identificador, k >  Linha:19 
+< Operador Relacional, = >  Linha:19 
+< Número, 0 >  Linha:19 
+< Delimitador, ; >  Linha:19 
+< Erro de Identificador, k >  Linha:19 
+< Operador Relacional, < >  Linha:19 
+< Número, 70 >  Linha:19 
+< Delimitador, ; >  Linha:19 
+< Erro de Identificador, k >  Linha:19 
+< Operador Aritmético, + >  Linha:19 
+< Operador Aritmético, + >  Linha:19 
+< Delimitador, ) >  Linha:19 
+< Delimitador, { >  Linha:19 
+< Palavra Reservada, if >  Linha:20 
+< Delimitador, ( >  Linha:20 
+< Erro de Identificador, carnes >  Linha:20 
+< Delimitador, [ >  Linha:20 
+< Erro de Identificador, k >  Linha:20 
+< Delimitador, ] >  Linha:20 
+< Operador Relacional, != >  Linha:20 
+< Cadeia Caracter, "carne" >  Linha:20 
+< Delimitador, ) >  Linha:20 
+< Delimitador, { >  Linha:20 
+< Erro de Identificador, cout >  Linha:21 
+< Operador Relacional, < >  Linha:21 
+< Operador Relacional, < >  Linha:21 
+< Erro de Identificador, carnes >  Linha:21 
+< Delimitador, [ >  Linha:21 
+< Erro de Identificador, k >  Linha:21 
+< Delimitador, ] >  Linha:21 
+< Delimitador, ; >  Linha:21 
+< Erro de Identificador, cont >  Linha:22 
+< Operador Relacional, = >  Linha:22 
+< Erro de Identificador, cont >  Linha:22 
+< Operador Aritmético, + >  Linha:22 
+< Número, 1 >  Linha:22 
+< Delimitador, ; >  Linha:22 
+< Palavra Reservada, if >  Linha:23 
+< Delimitador, ( >  Linha:23 
+< Erro de Identificador, cont >  Linha:23 
+< Operador Relacional, < >  Linha:23 
+< Erro de Identificador, N >  Linha:23 
+< Delimitador, ) >  Linha:23 
+< Delimitador, { >  Linha:23 
+< Delimitador, } >  Linha:24 
+< Delimitador, } >  Linha:25 
+< Delimitador, } >  Linha:26 
+< Erro de Identificador, cout >  Linha:27 
+< Operador Relacional, < >  Linha:27 
+< Operador Relacional, < >  Linha:27 
+< Erro de Identificador, endl >  Linha:27 
+< Delimitador, ; >  Linha:27 
+< Palavra Reservada, for >  Linha:28 
+< Delimitador, ( >  Linha:28 
+< Palavra Reservada, int >  Linha:28 
+< Erro de Identificador, i >  Linha:28 
+< Operador Relacional, = >  Linha:28 
+< Número, 0 >  Linha:28 
+< Delimitador, ; >  Linha:28 
+< Erro de Identificador, i >  Linha:28 
+< Operador Relacional, < >  Linha:28 
+< Número, 70 >  Linha:28 
+< Delimitador, ; >  Linha:28 
+< Erro de Identificador, i >  Linha:28 
+< Operador Aritmético, + >  Linha:28 
+< Operador Aritmético, + >  Linha:28 
+< Delimitador, ) >  Linha:28 
+< Delimitador, { >  Linha:28 
+< Erro de Identificador, carnes >  Linha:29 
+< Delimitador, [ >  Linha:29 
+< Erro de Identificador, i >  Linha:29 
+< Delimitador, ] >  Linha:29 
+< Operador Relacional, = >  Linha:29 
+< Cadeia Caracter, "carne" >  Linha:29 
+< Delimitador, ; >  Linha:29 
+< Delimitador, } >  Linha:30 
+< Erro de Identificador, cont >  Linha:31 
+< Operador Relacional, = >  Linha:31 
+< Número, 0 >  Linha:31 
+< Delimitador, ; >  Linha:31 
+< Delimitador, } >  Linha:32 
+< Erro de Identificador, return >  Linha:34 
+< Número, 0 >  Linha:34 
+< Delimitador, ; >  Linha:34 
+< Delimitador, } >  Linha:35 
